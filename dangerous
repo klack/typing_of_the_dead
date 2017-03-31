@@ -1,5 +1,5 @@
 Dangerous Linux Commands
-https://www.mehar.me/post/lethal-linux-commands/
+reference: https://www.mehar.me/post/lethal-linux-commands/
 
 sudo rm -rf --no-preserve-root /
 rm -rf ./*
