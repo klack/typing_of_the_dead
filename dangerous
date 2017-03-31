@@ -1,0 +1,13 @@
+Dangerous Linux Commands
+https://www.mehar.me/post/lethal-linux-commands/
+
+sudo rm -rf --no-preserve-root /
+rm -rf ./*
+dd if=/dev/null of=/dev/sda
+dd if=/dev/zero of=/dev/sda
+find /dev -name sd* | xargs -J % dd if=/dev/null of=%
+mkfs.ext4 /dev/sda
+:(){ :|: & };:
+command > /dev/sda
+find / -type f -mtime +30 -exec mv {} /dev/null \;
+mv / /dev/null
